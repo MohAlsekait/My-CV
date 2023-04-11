@@ -1,0 +1,76 @@
+body {
+  background-color: lightgray;
+}
+
+.header {
+  background-color: MidnightBlue;
+  padding: 50px 30px;
+  color: black;
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+  color:white;
+  font-weight: bold;
+}
+
+div.left{
+  text-align: left;
+  background-color: rgb(144, 169, 255);
+  width: 40%;
+  font-weight: bold;
+  padding:15px 30px;
+}
+
+h2{
+  color:blue;
+  font-weight: bold;
+  text-decoration: underline blue solid 15%;
+}
+
+address {
+  display: block;
+  text-align: left;
+  font-style: italic;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h3{
+  color: black;
+  font-weight: bold;
+}
+
+p{
+  color:black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+
+}
+
+ul{
+  list-style-type: circle;
+}
+
+ul li {
+  font-weight: bold;
+  color: darkblue;
+  margin: 10px;
+}
